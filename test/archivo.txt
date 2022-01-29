@@ -1,1 +1,323 @@
-Jodete perra!
+-----------------------BATALLANDO PARA SUBIR EL REPOSITORIO--------------------------
+
+
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Mauricio/MasterCoding/master-marvel-codulo2JS/.git/
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git add .
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git commit -m "se agrega modulo javascript"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git branch
+* main
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git config -- global user.email mauricio.guzmanelz@gmail.com
+error: key does not contain a section: global
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git config --global user.email mauricio.guzmanelz@gmail.com
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git config --global user.name mau-attitude
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git commit -m "se agrega modulo javascript"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+--------------------EMPEZANDO UNA PRUEBA PARA VER ERRORES------------------------------------------
+
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ mkdir test
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ cd test
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS/test (main
+$ git init
+Initialized empty Git repository in C:/Users/Mauricio/MasterCoding/master-marvel-code/M2JS/test/.git/
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS/test (mast
+$ echo
+
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS/test (mast
+$ archivo.txt
+bash: archivo.txt: command not found
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS/test (mast
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS/test (mast
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        archivo.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS/test (mast
+$ cat archivo.txt
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS/test (mast
+$ git add .
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS/test (mast
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   archivo.txt
+
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS/test (mastmaster) mmit -m "prueba"
+$ git commit -m "prueba"
+[master (root-commit) 640ee18] prueba
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 archivo.txt
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS/test (master)
+$ git branch
+* master
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS/test (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   archivo.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS/test (master)
+$ cd ..
+
+
+-------------AQUI INTENTE HACER UN INIT PARA SUBIRLO AL REPOSITORIO PERO NO LO HICE BIEN PORQUE YA SE HABIA HECHO ANTES--------------
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Mauricio/MasterCoding/master-marvel-code/Modulo2JS/.git/
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ echo
+
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   02-introAJS/05_1-ciclosWhile/index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git add .
+warning: adding embedded git repository: test
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint:   git submodule add <url> test
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint:   git rm --cached test
+hint: 
+hint: See "git help submodule" for more information.
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git rm --cached test
+error: the following file has staged content different from both the
+file and the HEAD:
+    test
+(use -f to force removal)
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$  -f
+bash: -f: command not found
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git -f
+unknown option: -f
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   ../02-HTML (new commits, untracked content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../02-INTRO-JS/
+        ./
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+-------------------DECICI BORRAR LOS INITS ANTERIORE YA QUE PARECE SER QUE ESE ERA EL ERROR, HICE UNO NUEVO I YA ME DEJO SUBIRLO AL REPO----------------------
+
+
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git init
+Initialized empty Git repository in C:/Users/Mauricio/MasterCoding/master-marvel-code/Modulo2JS/.git/
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (master)
+$ git add .
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (master)
+$ git commit -m "prueba2dejavascript"
+[master (root-commit) eee2c33] prueba2dejavascript
+ 69 files changed, 9610 insertions(+)
+ create mode 100644 01-introALaWeb/01-miPrimeraWeb/index.html
+ create mode 100644 01-introALaWeb/02-tableForms/forms.html
+ create mode 100644 01-introALaWeb/02-tableForms/iframes.html
+ create mode 100644 01-introALaWeb/02-tableForms/img/gokuGod.jpg
+ create mode 100644 01-introALaWeb/02-tableForms/index.html
+ create mode 100644 01-introALaWeb/03-cssSelectores/css/style.css
+ create mode 100644 01-introALaWeb/03-cssSelectores/css/style2.css
+ create mode 100644 01-introALaWeb/03-cssSelectores/img/gokuGod.jpg
+ create mode 100644 01-introALaWeb/03-cssSelectores/index.html
+ create mode 100644 01-introALaWeb/03-cssSelectores/otrosSelectores.html
+ create mode 100644 01-introALaWeb/04-boxModel/css/styles.css
+ create mode 100644 01-introALaWeb/04-boxModel/css/styles2.css
+ create mode 100644 01-introALaWeb/04-boxModel/ejemplo2.html
+ create mode 100644 01-introALaWeb/04-boxModel/index.html
+ create mode 100644 01-introALaWeb/05-flexBox/css/font-awesome.css
+ create mode 100644 01-introALaWeb/05-flexBox/css/font-awesome.min.css
+ create mode 100644 01-introALaWeb/05-flexBox/css/styles.css
+ create mode 100644 01-introALaWeb/05-flexBox/fonts/FontAwesome.otf
+ create mode 100644 01-introALaWeb/05-flexBox/fonts/fontawesome-webfont.eot
+ create mode 100644 01-introALaWeb/05-flexBox/fonts/fontawesome-webfont.svg
+ create mode 100644 01-introALaWeb/05-flexBox/fonts/fontawesome-webfont.ttf
+ create mode 100644 01-introALaWeb/05-flexBox/fonts/fontawesome-webfont.woff
+ create mode 100644 01-introALaWeb/05-flexBox/fonts/fontawesome-webfont.woff2
+ create mode 100644 01-introALaWeb/05-flexBox/img/gokuGod.jpg
+ create mode 100644 01-introALaWeb/05-flexBox/index.html
+ create mode 100644 01-introALaWeb/05-flexBox/less/animated.less
+ create mode 100644 01-introALaWeb/05-flexBox/less/bordered-pulled.less
+ create mode 100644 01-introALaWeb/05-flexBox/less/core.less
+ create mode 100644 01-introALaWeb/05-flexBox/less/fixed-width.less
+ create mode 100644 01-introALaWeb/05-flexBox/less/font-awesome.less
+ create mode 100644 01-introALaWeb/05-flexBox/less/icons.less
+ create mode 100644 01-introALaWeb/05-flexBox/less/larger.less
+ create mode 100644 01-introALaWeb/05-flexBox/less/list.less
+ create mode 100644 01-introALaWeb/05-flexBox/less/mixins.less
+ create mode 100644 01-introALaWeb/05-flexBox/less/path.less
+ create mode 100644 01-introALaWeb/05-flexBox/less/rotated-flipped.less
+ create mode 100644 01-introALaWeb/05-flexBox/less/screen-reader.less
+ create mode 100644 01-introALaWeb/05-flexBox/less/stacked.less
+ create mode 100644 01-introALaWeb/05-flexBox/less/variables.less
+ create mode 100644 01-introALaWeb/05-flexBox/scss/_animated.scss
+ create mode 100644 01-introALaWeb/05-flexBox/scss/_bordered-pulled.scss
+ create mode 100644 01-introALaWeb/05-flexBox/scss/_core.scss
+ create mode 100644 01-introALaWeb/05-flexBox/scss/_fixed-width.scss
+ create mode 100644 01-introALaWeb/05-flexBox/scss/_icons.scss
+ create mode 100644 01-introALaWeb/05-flexBox/scss/_larger.scss
+ create mode 100644 01-introALaWeb/05-flexBox/scss/_list.scss
+ create mode 100644 01-introALaWeb/05-flexBox/scss/_mixins.scss
+ create mode 100644 01-introALaWeb/05-flexBox/scss/_path.scss
+ create mode 100644 01-introALaWeb/05-flexBox/scss/_rotated-flipped.scss
+ create mode 100644 01-introALaWeb/05-flexBox/scss/_screen-reader.scss
+ create mode 100644 01-introALaWeb/05-flexBox/scss/_stacked.scss
+ create mode 100644 01-introALaWeb/05-flexBox/scss/_variables.scss
+ create mode 100644 01-introALaWeb/05-flexBox/scss/font-awesome.scss
+ create mode 100644 01-introALaWeb/06-cssGrid/css/styles.css
+ create mode 100644 01-introALaWeb/06-cssGrid/index.html
+ create mode 100644 02-introAJS/01-intro/index.html
+ create mode 100644 02-introAJS/01-intro/js/index.js
+ create mode 100644 02-introAJS/02-variables/index.html
+ create mode 100644 02-introAJS/02-variables/js/index.js
+ create mode 100644 02-introAJS/03-condicionalIf/index.html
+ create mode 100644 02-introAJS/03-condicionalIf/js/index.js
+ create mode 100644 02-introAJS/04-arrays/index.html
+ create mode 100644 02-introAJS/04-arrays/js/index.js
+ create mode 100644 02-introAJS/05-cicloFor/index.html
+ create mode 100644 02-introAJS/05-cicloFor/js/index.js
+ create mode 100644 02-introAJS/05_1-ciclosWhile/index.html
+ create mode 100644 02-introAJS/05_1-ciclosWhile/js/index.js
+ create mode 100644 Bienvenida.txt
+ create mode 100644 test/archivo.txt
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (master)
+$ git remote add origin https://github.com/mau-attitude/ModuloJavasCript.git
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (master)
+$ git branch -M main
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$ git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 98, done.
+Counting objects: 100% (98/98), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (87/87), done.
+Writing objects: 100% (98/98), 859.13 KiB | 4.97 MiB/s, done.
+Total 98 (delta 12), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (12/12), done.
+To https://github.com/mau-attitude/ModuloJavasCript.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+Mauricio@DESKTOP-RV3FF2B MINGW64 ~/MasterCoding/master-marvel-code/Modulo2JS (main)
+$
