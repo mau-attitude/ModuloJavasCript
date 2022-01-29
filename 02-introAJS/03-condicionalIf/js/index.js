@@ -12,7 +12,7 @@ if(nombreCompleto ==="" && añoActual === 0 && añoNacimiento === 0)
 }
 else if(añoNacimiento > añoActual)
 {
-    msg = "Pilas el año nacimiento no puede ser mayor al actual"
+    msg = "Error. El año nacimiento no puede ser mayor al actual"
 }
 else
 {
